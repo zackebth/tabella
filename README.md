@@ -1,6 +1,6 @@
 # Tabella
 
-##Installation
+###Installation
 
 Step 1. Download the files.
 Step 2. Add these lines below to your project to have access to the files.
