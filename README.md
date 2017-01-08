@@ -3,6 +3,7 @@
 ###Installation
 
 Step 1. Download the files.
+
 Step 2. Add these lines below to your project to have access to the files.
 ```html
    <link rel="stylesheet/less" href="path/tabella.css">
