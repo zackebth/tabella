@@ -11,7 +11,7 @@ Step 2. Add these lines below to your project to have access to the files.
 ```
 Step 3. Make sure you have this in your script, otherwise it wont run.
 ```javascript
-$('.hGallery').hakuGallery();
+$('.tabella').tabella();
 ```
 Step 4. Make sure that your images that you want have the class "tabella".
 ```html
