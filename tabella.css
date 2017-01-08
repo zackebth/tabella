@@ -1,0 +1,81 @@
+#tabella-gallery {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+#tg-overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom:0;
+	background-color:#000;
+	opacity:0.95;
+}
+
+#tg-selected-img {
+	position: absolute;
+	transform: translateY(-50%);
+}
+
+#tg-selected-img > img {
+	border: 5px solid #fff;
+	width: auto;
+	height: auto;
+}
+
+#tg-preview-img {
+	position: absolute;
+	width: 10%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#tg-preview-img:before {
+	content: '';
+	float:left;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#tg-preview-img > img {
+	vertical-align: middle;
+	margin: 10px 0;
+	width:100%;
+	height:auto;
+	cursor: pointer;
+}
+
+#tg-preview-img > img:hover {
+	-webkit-transform: scale(1.2);
+	transform:scale(1.2);
+}
+
+#tg-preview-img > .navUp {
+	position: fixed;
+	color: #fff;
+	opacity:1;
+	cursor: pointer;
+	top: 4%;
+	width:7%;
+	height:5%;
+	-ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#tg-preview-img > .navDown {
+	position: fixed;
+	color: #fff;
+	opacity:1;
+	cursor: pointer;
+	top: 98%;
+	width: 7%;
+	height: 5%;
+	-ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
